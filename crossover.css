@@ -1,0 +1,108 @@
+ html{
+    scroll-snap-type: none;
+ }
+ 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+} 
+.cross{
+     
+    border-radius: 20px; 
+    box-sizing: border-box;
+    background-color: rgb(250, 0, 0);
+    overflow: auto;
+    border: 5px solid rgb(255, 255, 255);
+    height: 100vh;
+    
+}
+li{
+    margin-bottom: 2vw;
+}
+.head{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    height: fit-content;
+    padding: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: underline;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    border-bottom: 2px solid  white;
+    position: sticky;
+    top: 0;
+    margin-bottom: 4vh;
+}
+.head h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.head h2{
+    -webkit-text-stroke-width: 1px;
+    margin-bottom: 0;
+    font-size: 2vw;
+}
+.subhead{
+    font-size: 1.2vw;
+    color: aliceblue;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border: 3px solid white;
+    padding: 0.4vw;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 1s ease-in-out;
+    margin-bottom: 4vh;
+}
+.subhead:hover{
+    background-color: white;
+    color: red;
+   
+}
+.subhead h2{
+    border: 2px solid white;
+    margin: 0;
+    height: 9vh;
+    padding: .4vw;
+    line-height: 5vh;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+
+}
+ .ol{
+    background-color: aliceblue;
+    padding: 2vw;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+ }
+ .ool{
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    padding: 1vw;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 0px red;
+    margin-bottom: 20px;
+ }
+ .ool li{
+    font-size: larger;
+    font-family: cursive;
+    color: red;
+ }
+ .footer{
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 800;
+    font-family: monospace;
+ }
